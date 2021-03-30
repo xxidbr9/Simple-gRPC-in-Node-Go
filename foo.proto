@@ -1,0 +1,8 @@
+syntax = "proto3";
+package foo;
+option go_package = "/foo";
+
+message Foo
+{
+  optional string foo = 1;
+}
